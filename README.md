@@ -12,7 +12,7 @@
 ```Setup
  - แก้ไขชื่อไฟล์ .env.example เป็น .env
  - สร้าง database ในmysql และ แก้ไข ค่าการเชื่อมต่อ mysql ในไหล์ .env 
- - ใช้ cmd เข้าพาร์ทไดเรกทอที่เก็บโปรเจค $composer install
+ - ใช้ cmd เข้าพาร์ทไดเรกทอที่เก็บโปรเจค $composer install เพื่อติดตั้ง dependencies
 
  
 ```run migration
