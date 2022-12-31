@@ -6,11 +6,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
+
+ 
+```Setup
  - แก้ไขชื่อไฟล์ .env.example เป็น .env
  - สร้าง database ในmysql และ แก้ไข ค่าการเชื่อมต่อ mysql ในไหล์ .env 
- 
- 
-```run Setup
  - ใช้ cmd เข้าพาร์ทไดเรกทอที่เก็บโปรเจค $composer install
 
  
@@ -19,7 +20,7 @@
 
 
 ```run server
-- ใช้ cmd เข้าพาร์ทไดเรกทอที่เก็บโปรเจค $php artisan serve // set port เป็น :8080
+- ใช้ cmd เข้าพาร์ทไดเรกทอที่เก็บโปรเจค $php artisan serve --port=8080
 
 ## API
 
